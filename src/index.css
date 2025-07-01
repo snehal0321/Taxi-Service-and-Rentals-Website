@@ -1,0 +1,345 @@
+.header{
+  overflow: hidden;
+  display:flex;
+  flex-direction:row;
+  border: 2px solid whitesmoke;
+  align-items: center;
+  width: 100%;
+  background-color: bisque;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: chocolate;
+  margin-bottom: 0px;
+}
+
+.header h4{
+  text-align: right;
+  margin-top:0px ;
+}
+
+
+.header span{
+  text-align: center;
+  margin-top:0px ;
+}
+
+.Brand-name{
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+}
+
+.header .brand,.Profile-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.logo{
+  height: 95px;
+}
+
+.header .profile{
+  height: 45px;
+}
+
+
+
+
+.nav-bar{
+  /* position: absolute ; */
+  display:flex;
+  flex-direction:row;
+  float: left;
+  align-items: baseline;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  gap:4rem;
+  /* right:30px; */
+}
+.nav-bar p{
+  border: 2px dashed chocolate ;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.nav-bar p:hover{
+  background-color: chocolate;
+}
+
+.bio{
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+.Trip-form{
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.form button{
+  width: fit-content;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 50px;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.form input {
+  border: none;
+  border-bottom: 2px solid #0077b6;
+  font-size: 14px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+
+.Trip-form:hover{
+  box-shadow: 0 4px 8px #0077b6;
+}
+
+.service-card {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.service-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.service-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0077b6;
+  margin: 10px 0;
+}
+
+.service-description {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+
+.services-grid{
+  display:flex;
+  flex-direction: row;
+}
+
+.service-card:hover{
+  box-shadow: 0 4px 8px #0077b6;
+  transform: scale(1.1);
+}
+
+.Tours-card {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.Tours-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.Tours-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0077b6;
+  margin: 10px 0;
+}
+
+.Tours-description {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+
+.Tours-grid{
+  display:flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.Tours-card:hover{
+  box-shadow: 0 4px 8px #0077b6;
+  transform: scale(1.1);
+}
+
+.card{
+border: 2px solid white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+background-color: #fff;
+padding: 20px;
+margin: 10px;
+text-align: center;
+max-width: 250px;
+}
+
+.card-grid{
+  display:flex;
+  flex-direction: row;
+}
+
+
+.card:hover{
+  box-shadow: 0 4px 8px #0077b6;
+  transform: scale(1.1);
+  transition: 10ms;
+}
+
+
+ .cars{
+  max-width:101% ;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.name{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color:  #0077b6; 
+
+}
+.details,.type{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#555;
+  margin:2px;
+}
+
+
+
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+ .top-conatiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: chocolate;
+  margin-bottom: 0px;
+}
+
+.footer h4{
+  text-align: right;
+  margin-top:0px ;
+}
+
+a:link,:visited,:active {
+  text-decoration: none;
+  color: #fff;  
+}
+.web-bio{
+  width:400px ; 
+  text-align:center ;
+}
+
+ 
+.social{
+  color: #fff;
+}
+.sub-container1{
+  color: #fff;
+}
+
+
+
+.Map{
+  margin-top: 10px;
+  width: 220px;
+}
+
+.Map img{
+  width: 200px ;
+}
+
+
+.footer ul{
+  list-style-type:square;
+}
+
+.footer .icons{
+  width: 25px;
+}
+
+.footer ul li{
+  margin: 10px;
+  font-size: 20px;
+} 
+
+.footer .copyright{
+  text-align: center;
+}
+
