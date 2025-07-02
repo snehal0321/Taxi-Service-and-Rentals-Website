@@ -47,6 +47,10 @@
   height: 45px;
 }
 
+.header p:link,:visited,:active {
+  text-decoration: none;
+  text-decoration-line: none;
+}
 
 
 
@@ -297,9 +301,12 @@ max-width: 250px;
   margin-top:0px ;
 }
 
-a:link,:visited,:active {
+.footer a{
+  color: #fff;
+}
+
+.footer a:link,:visited,:active {
   text-decoration: none;
-  color: #fff;  
 }
 .web-bio{
   width:400px ; 
