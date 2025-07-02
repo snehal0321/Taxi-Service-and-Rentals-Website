@@ -1,8 +1,12 @@
-# React + Vite
+🛺 SiddhiVinayak Taxi Service and Rentals – Goa
+A simple and responsive website built using React for SiddhiVinayak Taxi Service and Rentals, offering users a convenient platform to:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📍 Check car availability for rentals and airport pickups/drops
 
-Currently, two official plugins are available:
+🏖️ Book North Goa & South Goa tours
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌊 Explore and reserve watersports activities through our agency collaboration
+
+🚕 Designed specifically for travelers in Goa, ensuring a smooth and reliable booking experience
+
+Built with scalability in mind, the website offers clean UI and seamless navigation for tourists looking for transport and adventure in Goa.
