@@ -302,15 +302,11 @@ max-width: 250px;
 }
 
 .footer a{
-<<<<<<< HEAD
   color: #fff;
 }
 
-.footer a:link,:visited,:active {
+ a:link,:visited,:active {
   text-decoration: none;
-=======
-  color: #fff;  
->>>>>>> d9d14755ae27cd81f88db2f2b48a87bfe54d4e77
 }
 
 .footer a:link,:visited,:active {
