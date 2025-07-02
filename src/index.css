@@ -297,9 +297,12 @@ max-width: 250px;
   margin-top:0px ;
 }
 
-a:link,:visited,:active {
-  text-decoration: none;
+.footer a{
   color: #fff;  
+}
+
+.footer a:link,:visited,:active {
+  text-decoration: none;
 }
 .web-bio{
   width:400px ; 
