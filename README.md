@@ -13,3 +13,5 @@ A simple and responsive website built using React for SiddhiVinayak Taxi Service
 Built with scalability in mind, the website offers clean UI and seamless navigation for tourists looking for transport and adventure in Goa.
 
 Site Link : https://siddhivinayakrentals.netlify.app/
+
+Note : This Site is just for display purposes and services displayed can't be provided yet 
