@@ -20,7 +20,7 @@ function Header(){
                 <p>Vehicles</p>
             </nav>
             <div className="Profile-container">
-                <Link to="/login"><img className="profile" src={Profile} alt="ProfilePic" /></Link>
+                <img className="profile" src={Profile} alt="ProfilePic" ><Link to="/login">Login</Link></img>
                 <label htmlFor="profile"><Link to="/login">Login</Link></label >
             </div>
         </header>
