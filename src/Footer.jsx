@@ -41,8 +41,8 @@ function Footer(){
                     <ul>
                         <li><a href="#"><img className="icons" src={Instagram} alt="Instagram-Icon" />: Siddhi_Vinayak </a></li>
                         <li><a href="#"><img className="icons" src={Facebook} alt="Facebook-Icon" />: SiddhiVinayak</a></li>
-                        <li><a href="#"><img className="icons" src={Whatsapp} alt="Whatsapp-Icon" /> : 91616 </a></li>
-                        <li><a href="#"><img className="icons" src={Email} alt="Email-Icon" />: SiddhiVinayakRentals@gmail.com </a></li>
+                        <li><a href="#"><img className="icons" src={Whatsapp} alt="Whatsapp-Icon" /> : 9130234616 </a></li>
+                        <li><a href="#"><img className="icons" src={Email} alt="Email-Icon" />: smashelkar6@gmail.com </a></li>
                     </ul>
                 </div>
                 <div className="Map">
@@ -50,9 +50,7 @@ function Footer(){
                     <p>SiddhiVinayak Taxi Service & rentals, Near Abalone Resort, Ghorbhat waddo, Arpora, Goa 403516</p>
                 </div>
             </div>
-
-            <p className="copyright">&copy; {new Date().getFullYear() } SiddhiVinayak Taxi Service And Rentals</p>
-            
+            <p className="copyright">&copy; {new Date().getFullYear() } SiddhiVinayak Taxi Service And Rentals</p>   
         </footer>
        
     );
