@@ -39,9 +39,9 @@ function Footer(){
                 <div className="social">
                     <h2>Follow us</h2>
                     <ul>
-                        <li><a href="#"><img className="icons" src={Instagram} alt="Instagram-Icon" />: @Siddhi_Vinayak </a></li>
+                        <li><a href="#"><img className="icons" src={Instagram} alt="Instagram-Icon" />: Siddhi_Vinayak </a></li>
                         <li><a href="#"><img className="icons" src={Facebook} alt="Facebook-Icon" />: SiddhiVinayak</a></li>
-                        <li><a href="#"><img className="icons" src={Whatsapp} alt="Whatsapp-Icon" /> : 91*****616 </a></li>
+                        <li><a href="#"><img className="icons" src={Whatsapp} alt="Whatsapp-Icon" /> : 91616 </a></li>
                         <li><a href="#"><img className="icons" src={Email} alt="Email-Icon" />: SiddhiVinayakRentals@gmail.com </a></li>
                     </ul>
                 </div>
