@@ -39,10 +39,10 @@ function Footer(){
                 <div className="social">
                     <h2>Follow us</h2>
                     <ul>
-                        <li><a href="#"><img className="icons" src={Instagram} alt="Instagram-Icon" />: Siddhi_Vinayak </a></li>
+                        <li><a href="#"><img className="icons" src={Instagram} alt="Instagram-Icon" />: @Siddhi_Vinayak </a></li>
                         <li><a href="#"><img className="icons" src={Facebook} alt="Facebook-Icon" />: SiddhiVinayak</a></li>
-                        <li><a href="#"><img className="icons" src={Whatsapp} alt="Whatsapp-Icon" /> : 9130423616 </a></li>
-                        <li><a href="#"><img className="icons" src={Email} alt="Email-Icon" />: smashelkar6@gmail.com </a></li>
+                        <li><a href="#"><img className="icons" src={Whatsapp} alt="Whatsapp-Icon" /> : 91*****616 </a></li>
+                        <li><a href="#"><img className="icons" src={Email} alt="Email-Icon" />: SiddhiVinayakRentals@gmail.com </a></li>
                     </ul>
                 </div>
                 <div className="Map">
@@ -52,6 +52,7 @@ function Footer(){
             </div>
 
             <p className="copyright">&copy; {new Date().getFullYear() } SiddhiVinayak Taxi Service And Rentals</p>
+            <p className="copyright">Developer: Snehal Mashelkar</p>
         </footer>
        
     );
