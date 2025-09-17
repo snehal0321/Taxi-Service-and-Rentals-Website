@@ -52,7 +52,7 @@ function Footer(){
             </div>
 
             <p className="copyright">&copy; {new Date().getFullYear() } SiddhiVinayak Taxi Service And Rentals</p>
-            <p className="copyright">Developer: Snehal Mashelkar</p>
+            
         </footer>
        
     );
