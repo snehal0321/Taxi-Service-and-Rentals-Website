@@ -18,6 +18,7 @@ import history from "./assets/History_plc.webp";
 import Dolphin from "./assets/Dolphin_dive.jpg";
 import goatour from "./assets/goa-tour.jpg";
 import scuba from "./assets/scuba_diving_Goa.jpg";
+import PhotoGallery from "./photo_gallery.jsx";
 
 
 
@@ -125,6 +126,7 @@ function App() {
           ))}
         </div>
     </div>
+    
     <div className="card-container">
         <h2>VEHICLES</h2>
         <div className="card-grid">
@@ -138,6 +140,9 @@ function App() {
             />
           ))}
         </div>
+    </div>
+    <div className="Tours-container" >
+        <PhotoGallery/>
     </div>
       <Footer/>
     </>
