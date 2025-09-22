@@ -296,8 +296,8 @@ max-width: 250px;
 
 /* Review Section CSS */ 
 .Review-image {
-  width: 61%;
-  height: 150px;
+  width: 72px;
+  height: 71px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
