@@ -89,6 +89,7 @@ a:hover, a:active {
 
 .nav-bar p:hover{
   background-color: chocolate;
+  color: white;
 }
 
 .bio{
