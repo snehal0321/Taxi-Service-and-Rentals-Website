@@ -141,7 +141,7 @@ function App() {
           ))}
         </div>
     </div>
-    <div className="Tours-container" >
+    <div className="Review-container" >
         <h2>REVIEWS</h2>
         <PhotoGallery/>
     </div>

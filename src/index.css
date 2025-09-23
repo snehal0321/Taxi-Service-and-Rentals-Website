@@ -295,6 +295,20 @@ max-width: 250px;
 }
 
 /* Review Section CSS */ 
+
+.Review-grid{
+  display:flex;
+  flex-direction: row;
+}
+
+.Review-section{
+   display: flex;
+   overflow-x: scroll;
+   gap: 1rem;
+   padding-bottom: 1rem;
+   
+}
+
 .Review-image {
   width: 72px;
   height: 71px;

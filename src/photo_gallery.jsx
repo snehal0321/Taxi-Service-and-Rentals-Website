@@ -1,7 +1,6 @@
 import React from 'react';
 import ReviewCard from './review_cards.jsx';
 import  Profile  from "./assets/profile.jpg";
-
 // Sample images (replace with your own image URLs)
 const images = [
     { src: Profile, alt: 'Taxi 1' , review: 'Great service and comfortable ride!' , Customer: 'snehal' },
@@ -11,22 +10,16 @@ const images = [
     { src: Profile, alt: 'Travel Van' , review: 'Great service and comfortable ride!', Customer: 'snehal' },
 ];
 
+
+
 const PhotoGallery = () => {
     
 
     return (
-        <div style={{ padding: '2rem' }}>
-            <div
-                style={{
-                    display: 'flex',
-                    overflowX: 'auto',
-                    gap: '1rem',
-                    paddingBottom: '1rem',
-                }}
-
+        <div >
+            <div className='Review-section'>
                 
-            >
-                <div className="services-grid">
+                <div className="Review-grid" >
                 {images.map((rev, index) => (
                     <ReviewCard
                     key={index}
