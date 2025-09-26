@@ -30,7 +30,7 @@ function Header(){
             </nav>
             <div className="Profile-container">
                 <Link to="/login"><img className="profile" src={Profile} alt="ProfilePic" /></Link>
-                <label htmlFor="profile"><Link to="/login">Login</Link></label >
+                <label htmlFor="profile"><Link to="/login"> login with email </Link></label >
             </div>
         </header>
     );
